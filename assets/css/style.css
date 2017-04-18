@@ -210,10 +210,97 @@ div.desc {
 	border-top-style: solid;
 	border-top-color:#4aaaa5;
 	border-top-width:5px;
-	position: absolute;
+	position: relative;
 	padding-top:20px;
 	margin-top: 600px;
 
 }
+
+/*make it responsive using media queries, 
+max-width: 980px, 768px, 640px */
+@media screen and (max-width: 980px) {
+    .main {
+    	margin-left: 50px;
+    }
+    #myPic {
+    	clear: both;
+    	width: 100%;
+    }
+    #connect{
+    	padding: 10px
+    	margin-left: 0px;
+    }
+    /*#footer {
+    	margin: 0px;;
+    }*/
+
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		margin-left: 20px;
+	}
+    .main {
+    	width:100%;
+    	padding: 10px;
+    	margin-left: 20px;
+    }
+    #connect{
+    	width: 100%;
+    	padding: 10px;
+    	margin: 20px 0 0 20px;
+    	text-align: left;
+    	
+    }
+    /*#footer {
+    	margin: 0px;;
+    }*/
+
+}
+
+@media screen and (max-width: 640px) {
+	h1 {
+		width: 100%;
+		clear: both;
+		margin: 0px;
+		text-align: center;
+	}
+	nav {
+		width: 100%;
+		line-height: 50px;
+		text-align: center;
+
+	}
+	nav li {
+		padding: 60px;
+	}
+    .main {
+    	width:100%;
+    	padding: 10px;
+    	margin-left: 20px;
+    }
+
+    #myPic {
+    	clear: both;
+    	width: 100%;
+    }
+
+    .gallery {
+    	clear:both;
+    }
+    #connect{
+    	width: 100%;
+    	padding: 10px;
+    	margin: 20px 0 0 20px;
+    	text-align: left;
+    	
+    }
+   /* #footer {
+    	margin: 0px;
+    }*/
+
+}
+
+
 
 
